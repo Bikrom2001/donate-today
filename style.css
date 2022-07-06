@@ -321,10 +321,55 @@ input[type=text]:focus {
 }
 
 /*--------------------------------------------------------------
+# Gallery css
+--------------------------------------------------------------*/
+#Gallery {
+    padding: 40px 0px;
+}
+#Gallery .gallery-heading h1 {
+    text-align: center;
+    color: #121212;
+    font-weight: bold;
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+#Gallery .gallery-heading p {
+    text-align: center;
+    width: 691px;
+    margin: 0 auto;
+    color: #707070;
+    font-size: 18px;
+    padding-bottom: 50px;
+}
+.Gallery-all-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.Gallery-all-image .gallery-item img {
+    width: 360px;
+    height: 240px;
+    border-radius: 5px;
+}
+.Gallery-all-second-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.Gallery-all-second-image .gallery-item-seond img {
+    width: 360px;
+    height: 240px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+/*--------------------------------------------------------------
 # Get My Updates css
 --------------------------------------------------------------*/
 #my-updates {
-    padding: 90px 0px;
+    padding-top: 50px;
+    padding-bottom: 90px;
 }
 #my-updates .my-uddates-heading h1 {
     text-align: center;
@@ -363,7 +408,6 @@ input[type=text]:focus {
 
 input[type=email]:focus {
     outline: none;
-
 }
 .Subscribe-from a {
     text-decoration: none;
