@@ -233,3 +233,89 @@ input[type=text]:focus {
     color: #707070;
     font-size: 16px;
 }
+
+/*--------------------------------------------------------------
+# Their lives depend css
+--------------------------------------------------------------*/
+#lives-depend {
+    padding: 80px 0px;
+}
+#lives-depend .lives-depend-items {
+    display: flex;
+    width: 1080px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.right-lives-img img {
+    width: 456px;
+    height: 477px;
+    border-radius: 5px;
+}
+#lives-depend .lives-depend-items .left-lives-text h1{
+    color: #121212;
+    font-size: 45px;
+    width: 490px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#lives-depend .lives-depend-items .left-lives-text p {
+    color: #707070;
+    font-size: 18px;
+    margin-right: 140px;
+    margin-bottom: 20px;
+}
+#lives-depend .lives-depend-items .left-lives-text a {
+    text-decoration: none;
+    color: white;
+}
+.contribute-button {
+    padding-top: 20px;
+}
+.Contribute-btn{
+    background-color: #FF5959;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 12px 26px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/*--------------------------------------------------------------
+# Their lives depend css
+--------------------------------------------------------------*/
+#suvive-depend {
+    padding: 40px 0px;
+}
+#suvive-depend .suvive-depend-items {
+    display: flex;
+    width: 1080px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.right-suvive-img img {
+    width: 456px;
+    height: 477px;
+    border-radius: 5px;
+}
+#suvive-depend .suvive-depend-items .left-suvive-text h1{
+    color: #121212;
+    font-size: 45px;
+    width: 330px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#suvive-depend .suvive-depend-items .left-suvive-text p {
+    color: #707070;
+    font-size: 18px;
+    margin-right: 60px;
+    margin-bottom: 20px;
+}
+#suvive-depend .suvive-depend-items .left-suvive-text a {
+    text-decoration: none;
+    color: white;
+}
+.left-suvive-text {
+    margin-left: 100px;
+}
